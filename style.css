@@ -5,6 +5,7 @@
     padding:0px;
     box-sizing: border-box;
 }
+
 header{
     margin:20px;
 
@@ -55,3 +56,62 @@ header{
    -ms-border-radius:7px;
    -o-border-radius:7px;
 }
+
+.container{
+    max-width: 1512px;
+}
+
+#intro{
+    margin: 10px;
+}
+
+.iall{
+    display: flex;
+}
+
+.itexts{
+    width: 462px;
+    height: 231px;
+    margin-top:158px;
+    margin-left: 180px;
+    h5{
+        width: 360px;
+        font-family: "Poppins";
+        font-weight: 700;
+        font-size:24px;
+        color:rgba(184, 15, 10, 1);
+    
+    }
+    h4{
+        width: 462px;
+        font-family: "Poppins";
+        font-weight: 700;
+        font-size:48px;
+        color:rgba(184, 15, 10, 1);
+    }
+    p{
+        line-height: 30px;
+        font-family: "Poppins";
+        font-weight: 300;
+        font-size:20px;
+        color:rgba(0, 0, 0, 1);
+    }
+}
+.requestt{
+    margin-top:40px;
+    border:7px;
+    border-color:rgba(184, 15, 10, 1);
+    width: 168px;
+    height: 46px;
+    padding:10px;
+    background-color: rgba(184, 15, 10, 1);
+    font-family:"Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    -ms-border-radius:7px;
+    -o-border-radius:7px;
+}
+
